@@ -1,5 +1,4 @@
-html, 
-body {
+html, body {
     background-color: #ffffff;
     border-color: #dddddd;
     margin: auto;
@@ -196,4 +195,192 @@ img {
     position: relative;
     top: -730px;
     z-index: 2;
+}
+
+/* -------- Media Screen Edits --------- */
+
+/* ---- 980px stylings ---- */
+
+@media (max-width: 980px) {
+    
+    /* About Page */
+
+    header {
+        max-width: 80%;
+        margin-left: 15%;
+    }
+
+    nav {
+        margin: 0%;
+    }
+
+    .main {
+        max-width: 40%;
+        margin-left: 15%;
+    }
+
+    /* Portfolio Page */
+
+    #hangman {
+        position: static;
+    }
+    
+    #rpg {
+        position: static;
+    }
+    
+    #trivia {
+        position: static;
+    }
+    
+    #rutgers {
+        position: static;
+    }
+    
+    #rock {
+        position: static;
+    }
+    
+    #hangman2 {
+        position: relative;
+        top: -100px;
+        z-index: 2;
+    }
+    
+    #rpg2 {
+        position: relative;
+        top: -100px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    #trivia2 {
+        position: relative;
+        top: -100px;
+        z-index: 2;
+    }
+    
+    #rutgers2 {
+        position: relative;
+        top: -100px;
+        left: 0px;
+        z-index: 2;
+    }
+    
+    #rock2 {
+        position: relative;
+        top: -100px;
+        z-index: 2;
+    }
+}
+
+/* ---- 768px stylings ---- */
+
+@media (max-width: 768px) {
+
+    /* About Page */
+
+    header {
+        max-width: 84%;
+        margin-left: 10%;
+    }
+
+    nav {
+        margin: 0%;
+    }
+
+    .main {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* ---- 640px stylings ---- */
+
+@media (max-width: 640px) {
+
+    /* About Page */
+
+    header {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+
+    nav {
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .navbar ul {
+        width: 100%;
+    }
+
+    #bio {
+        width:100%;
+        height: 100%;
+    }
+
+    .main {
+        max-width: 90%;
+        margin-right: 8%;
+    }
+
+
+    /* Portfolio Page */
+
+    #hangman {
+    position: static;
+    }
+
+    #rpg {
+    position: static;
+    }
+
+    #trivia {
+    position: static;
+    }
+
+    #rutgers {
+    position: static;
+    }
+
+    #rock {
+    position: static;
+    }
+
+    #hangman2 {
+    position: relative;
+    top: -100px;
+    z-index: 2;
+    }
+
+    #rpg2 {
+    position: relative;
+    top: -100px;
+    left: 0px;
+    z-index: 2;
+    }
+
+    #trivia2 {
+    position: relative;
+    top: -100px;
+    z-index: 2;
+    }
+
+    #rutgers2 {
+    position: relative;
+    top: -100px;
+    left: 0px;
+    z-index: 2;
+    }
+
+    #rock2 {
+    position: relative;
+    top: -100px;
+    z-index: 2;
+    }
 }
